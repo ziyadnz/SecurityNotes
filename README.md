@@ -63,6 +63,7 @@ This script will setup the HTTP server and the LDAP server for you, and it will 
 <br>
 
 
+
 Our vulnerable application
 --------------------------
 
@@ -73,6 +74,15 @@ We have added a Dockerfile with the vulnerable webapp. You can use this by follo
 ```
 Once it is running, you can access it on localhost:8080
 
+**Note:** If the port is already in use run  
+```c
+sudo lsof -i:8080
+sudo kill -9 PID
+```
+In my case apache is runnning I need to kill apache server and stop apache service.
+```c
+sudo systemctl stop tomcat9.service
+```
 If you would like to further develop the project you can use Intellij IDE which we used to develop the project. We have also included a `.idea` folder where we have configuration files which make the job a bit easier. You can probably also use other IDE's too.
 
 <br>
