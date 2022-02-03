@@ -1,0 +1,9 @@
+RFID 
+RFID (Radio Frequency Identification) has been using mostly at the security of the buildings.
+Radio waves are sent to the card and received back by the antenna wirelessly. Although it looks
+like it is high technology, the problem with the RFID is that they can be copied using low-budget
+tools such as Arduino and RC522. The RC522 modul is used to identify the cards which works on
+13.56 MHz. By using Arduino’s default examples such as DumpInfo the data inside a card or an
+RFID tag can be seen. Further on, it can be transferred to a new blank card using writeBlock
+function.
+Libraries are available in arduino market. 
